@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #07071a;
+  min-height: 100vh;
+  border: 10px solid #46464b;
+}
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.top_section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.top_section h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #1d1e4c;
+  text-transform: uppercase;
+}
+
+.top_section h4 {
+  font-size: 30px;
+  text-align: end;
+}
+
+.image_container {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.image_container,
+img {
+  width: 300px;
+  height: 320px;
+}
+
+.top_section h1 {
+  color: gold;
+}
+
+.top_section h4 {
+  color: gold;
+}
+
+.about_section {
+  margin-top: 50px;
+}
+
+.about_section h2 {
+  color: white;
+  font-size: 70px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.about_section p {
+  color: white;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+  text-align: justify;
+}
+
+/* Award section */
+.Awards_section {
+  margin: 50px 0;
+}
+
+.Awards_section h3 {
+  color: silver;
+  margin-bottom: 20px;
+}
+
+.Awards_section ul {
+  color: white;
+  margin-left: 50px;
+}
+
+.Awards_section li {
+
+  margin-bottom: 15px;
+}
+
+/* Writings sectionn */
+.Writings_section {
+  margin: 50px 0;
+}
+
+.Writings_section h3 {
+  color: silver;
+  margin-bottom: 20px;
+}
+
+.Writings_section ul {
+  color: white;
+  margin-left: 50px;
+}
+
+.Writings_section li {
+
+  margin-bottom: 15px;
+}
+
+footer {
+
+  margin: 50px 0;
+}
+
+footer p {
+  color: gold;
+  text-align: end;
+}
